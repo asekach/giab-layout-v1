@@ -1,0 +1,147 @@
+@import './vars';
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: Inter;
+	src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.typograph-section{
+    h1{
+        color: $main-typographi-color;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 100%;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+        @media screen and (max-width: 1200px){
+            font-size: 40px;
+            line-height: 29px;
+            letter-spacing: 4px;
+        }	
+        @media screen and (max-width: 991px){
+            font-size: 30px;
+            line-height: 29px;
+            letter-spacing: 3px;
+        }	
+        @media screen and (max-width: 767px){
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 2.4px;
+        }		
+    }
+
+    h2{
+        color: $main-typographi-color;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 90.625%;
+        letter-spacing: 3.2px;
+        text-transform: uppercase;
+        padding-bottom: 40px;
+        @media screen and (max-width: 1200px){
+            font-size: 28px;
+            letter-spacing: 2.8px;
+            line-height: 29px;
+            padding-bottom: 30px;
+        }		
+        @media screen and (max-width: 991px){
+            font-size: 22px;
+            letter-spacing: 2.2px;
+        }		
+        @media screen and (max-width: 767px){
+            font-size: 19px;
+            letter-spacing: 1.9px;
+        }		
+    }
+
+    h3{
+        color: $main-typographi-color;
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 90.625%;
+        letter-spacing: 3.2px;
+        text-transform: uppercase;
+        padding-bottom: 32px;
+        @media screen and (max-width: 1200px){
+            font-size: 24px;
+            letter-spacing: 2.8px;
+            line-height: 29px;
+            padding-bottom: 28px;
+        }		
+        @media screen and (max-width: 991px){
+            font-size: 20px;
+            letter-spacing: 2.2px;
+        }		
+        @media screen and (max-width: 767px){
+            font-size: 17px;
+            letter-spacing: 1.9px;
+        }		
+    }
+
+    h4{
+        color: $main-typographi-color;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 90.625%;
+        letter-spacing: 3.2px;
+        text-transform: uppercase;
+        padding-bottom: 32px;
+        @media screen and (max-width: 1200px){
+            font-size: 24px;
+            letter-spacing: 2.8px;
+            line-height: 29px;
+            padding-bottom: 28px;
+        }		
+        @media screen and (max-width: 991px){
+            font-size: 18px;
+            letter-spacing: 2.2px;
+        }		
+        @media screen and (max-width: 767px){
+            font-size: 16px;
+            letter-spacing: 1.9px;
+        }		
+    }
+
+    p{
+        color: $main-typographi-color;
+        font-family: Inter;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 180%;
+        letter-spacing: 2.4px;
+        padding-bottom: 30px;
+        @media screen and (max-width: 991px){
+            font-size: 16px;
+            letter-spacing: 1.8px;
+            padding-bottom: 20px;
+        }	
+        @media screen and (max-width: 767px){
+            font-size: 14px;
+        }	
+        a{
+            color: $main-green-color;
+            text-decoration: underline;
+        }
+    }
+
+    .image-content{
+        padding-bottom: 40px;
+        text-align: center;
+        @media screen and (max-width: 991px){
+            padding-bottom: 20px;
+        }	
+        img{
+            max-width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    }
+}
